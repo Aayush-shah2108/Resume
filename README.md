@@ -15,7 +15,6 @@ A modern, responsive personal CV website showcasing professional experience, ski
 - **Multiple Pages**:
   - Home page with overview
   - Detailed resume page
-  - Talks/Speaking engagements page
 
 ## 🛠️ Technologies Used
 
@@ -32,7 +31,6 @@ A modern, responsive personal CV website showcasing professional experience, ski
 Aayush-shah-CV/
 ├── index.html          # Main homepage
 ├── resume.html         # Detailed resume page
-├── talks.html          # Speaking engagements page
 ├── app.js              # JavaScript for interactions
 ├── app.css             # Custom CSS styles
 ├── elephant.css        # Elephant animation styles
@@ -77,7 +75,6 @@ php -S localhost:8000
 2. **Email**: Update `ayushshah2182000@gmail.com` in:
    - `index.html`
    - `resume.html`
-   - `talks.html`
 3. **Profile Image**: Replace `profile-image.jpg` with your own image
 4. **Social Links**: Update links in `index.html`:
    - GitHub: `https://github.com/Aayush-shah2108`
@@ -131,11 +128,6 @@ The site uses a red accent color (`#FF2D20`). To change it:
 - Work experience timeline
 - Education history
 - Contact information
-
-### Talks Page (`talks.html`)
-- Speaking engagements
-- Conference talks
-- Event details
 
 ## 🔧 Configuration
 
