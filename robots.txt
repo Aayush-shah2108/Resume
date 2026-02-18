@@ -1,0 +1,43 @@
+# Robots.txt for Aayush Shah - PHP Developer
+# Allow all crawlers access to content
+User-agent: *
+Allow: /
+Allow: /profile-image.jpg
+Allow: /favicon.png
+Allow: /*.css
+Allow: /*.js
+
+# Sitemap location
+# Sitemap: [YOUR_WEBSITE_URL]/sitemap.xml
+
+# Crawl delay to be respectful to servers
+Crawl-delay: 1
+
+# Allow social media bots for better sharing
+User-agent: facebookexternalhit/*
+Allow: /
+
+User-agent: Twitterbot
+Allow: /
+
+User-agent: LinkedInBot
+Allow: /
+
+User-agent: WhatsApp
+Allow: /
+
+User-agent: Applebot
+Allow: /
+
+User-agent: bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+# Host directive
+# Host: [YOUR_WEBSITE_URL]
+
+# Block access to files that shouldn't be indexed
+Disallow: /sw.js
+Disallow: /*.json
